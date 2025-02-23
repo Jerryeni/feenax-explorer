@@ -10,18 +10,18 @@ export function ChainStats() {
     queryFn: async () => {
       // Implement API call here
       return {
-        price: 583.93,
+        price: 3,
         btcValue: 0.008701,
         priceChange: "+0.39%",
-        marketCap: 86504593753.00,
-        marketCapFnx: 142142881,
-        transactions: 6311.23,
-        tps: 42.0,
+        marketCap: 0,
+        marketCapFnx: 0,
+        transactions: 0,
+        tps: 0,
         gasPrice: 1,
         gasPriceUsd: 0.01,
         latestBlock: 43477480,
         blockTime: 3.0,
-        votingPower: 97966371.95,
+        votingPower: 3,
         chartData: Array.from({ length: 30 }, (_, i) => ({
           date: new Date(Date.now() - (30 - i) * 24 * 60 * 60 * 1000),
           value: 2800 + Math.random() * 1600
